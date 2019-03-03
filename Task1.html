@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="bla">Muhammad Roshan Mughees</title>
+</head>
+<style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h1 {
+  color: red;
+  font-family: verdana;
+  font-size: 200%;
+}
+input[type=submit] {
+  background-color: #FF0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #808000;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+	<H1>Home Task 1 by Muhammad Roshan Mughees</H1>
+	<div>
+	<form action="">
+  		<p>Roll No:</p><input type="text" name="rollno" required><input type="submit"><br>
+  		<p>Name:</p><input type="text" name="name" required><input type="submit"><br>
+  		<p>Father Name:</p><input type="text" name="father" required><input type="submit"><br>
+  		<p>Class:
+  		<select required style="width: 5%;">
+			  <option value="">1</option>
+			  <option value="">2</option>
+			  <option value="">3</option>
+			  <option value="">4</option>
+			  <option value="">5</option>
+			  <option value="">6</option>
+			  <option value="">7</option>
+			  <option value="">8</option>
+			  <option value="">9</option>
+			  <option value="">10</option>
+			  <option value="">11</option>
+			  <option value="">12</option>
+		</select><input type="submit"><br></p>
+		<p><b>Gender:</b>
+		<input type="radio" name="gender" value="male"> Male
+  		<input type="radio" name="gender" value="female"> Female<br></p>
+
+  		<p><b>Upload Image:</b></p>
+  		<input type="file" name="pic""><input type="submit">
+
+  		<p><b>Upload Document:</b></p>
+  		<input type="file" name="doc"><input type="submit">
+	</form>
+
+	<button onclick="myFunction()">Alert</button>
+
+	<script>
+	function myFunction() {
+	 alert("Register form save");
+	}</script>
+</div>
+</body>
+</html>
